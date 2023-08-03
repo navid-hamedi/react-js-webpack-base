@@ -31,24 +31,15 @@ module.exports = {
         filename: './index.html',
         }),
     ],
-    /** A Without PHP */
-    devServer: {
-        static: path.join(__dirname, 'dist'),
-        compress: true,
-        port: 3000,
-    },
-    /** B With PHP */
-    /*
     devServer: {
         static: path.join(__dirname, 'dist'),
         compress: true,
         port: 3000,
         proxy: {
-          '/backend': {
-            target: 'http://localhost', // Replace with the address of your PHP backend
-            pathRewrite: { '^/backend': '/backend' },
-          },
+            '/backend': {
+                target: 'http://localhost:80',
+                pathRewrite: { '^/backend': '/backend' },
+            },
+        },
     },
-    */
-    /** END PHP */
 };
