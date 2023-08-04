@@ -7,4 +7,6 @@ function App() {
   </div>
 }
 
+/* no idea what im doing :) */
+
 export default App;
