@@ -12,3 +12,6 @@ PHP
 4. codium .
 5. npm install
 6. npx webpack serve
+
+# goals for this git repo
+include sass to webpack
