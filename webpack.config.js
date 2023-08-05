@@ -40,9 +40,9 @@ module.exports = {
         compress: true,
         port: 3000,
         proxy: {
-            '/backend': {
+            '/server': {
                 target: 'http://localhost:80',
-                pathRewrite: { '^/backend': '/backend' },
+                pathRewrite: { '^/server': '/server' },
             },
         },
     },
