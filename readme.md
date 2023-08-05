@@ -14,4 +14,4 @@ PHP
 6. npx webpack serve
 
 # goals for this git repo
-include sass to webpack
+include sass to webpack - done
