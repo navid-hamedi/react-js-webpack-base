@@ -7,7 +7,7 @@ import React, { useEffect } from "react";
 function PhpTest () {
 
     useEffect(() => {
-        fetch('/server/public/connect.php', { method: 'POST' })
+        fetch('/server/public/connect.php')
           .then((response) => response.text())
           .then((data) => {
             console.log(data);
