@@ -17,3 +17,6 @@ PHP
 include sass to webpack - done
 
 fix php problem.
+
+found a guide for the xampp fix
+https://www.youtube.com/watch?v=XyuAnrgHRpc
