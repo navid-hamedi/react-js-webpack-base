@@ -15,8 +15,5 @@ PHP
 
 # goals for this git repo
 include sass to webpack - done
-
-fix php problem.
-
-found a guide for the xampp fix
-https://www.youtube.com/watch?v=XyuAnrgHRpc
+fix php problem - done
+next finish setting up webpack, images and etc.
