@@ -1,9 +1,10 @@
 import React from "react";
+import logo from '../assets/images/brand.svg';
 
 function Header () {
     return (
         <div className="header">
-            <h1>Hello I'm header!</h1>
+            <img src={logo}></img>
         </div>
     );
 }

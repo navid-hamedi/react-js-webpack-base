@@ -3,7 +3,7 @@ PHP integrated to tailored ReactJS project.
 node_modules not included.
 
 # languages that this project supports
-PHP
+PHP SASS
 
 # steps for setting up react-js-webpack-base
 1. create new folder inside of xampp/htdocs/ folder using mkdir command
@@ -14,6 +14,7 @@ PHP
 6. npx webpack serve
 
 # goals for this git repo
-include sass to webpack - done
-fix php problem - done
-next finish setting up webpack, images and etc.
+1. include sass to webpack - done
+2. fix php problem - done
+3. next finish setting up webpack, images and etc. - done
+4. 3D models
