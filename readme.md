@@ -1,5 +1,5 @@
 # reactjs project
-PHP integrated to tailored ReactJS project.
+PHP included to a tailored ReactJS base.
 node_modules not included.
 
 # languages that this project supports
@@ -17,4 +17,4 @@ PHP SASS
 1. include sass to webpack - done
 2. fix php problem - done
 3. next finish setting up webpack, images and etc. - done
-4. 3D models
+4. 3D models - base can be found https://github.com/navid-hamedi/react-js-webpack-3D
